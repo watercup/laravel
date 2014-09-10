@@ -1,0 +1,144 @@
+/* reset */
+ol,ul {list-style:none;}
+
+img{width:100%;}
+/*end reset*/
+body
+{
+	background: url(../img/bg.jpg);
+	background-size: cover;
+	font-family: 'Microsoft yahei', sans-serif;
+}
+.wrap
+{
+	width:70%;
+	margin: 0 auto;
+}
+.content
+{
+	padding-top: 65px ;
+	
+	text-align: center;
+}
+.logo
+{
+	text-align: center;
+	padding: 20 0px;
+	display: block;
+}
+.logo a
+{
+	display: inline-block;
+}
+.logo a h1
+{
+	font-family: 'Mr Dafoe', cursive;
+	font-size:7em;
+	color: #FFF;
+}
+.content p
+{
+	color: #fff;
+	font-size: 40px;
+	padding-top: 140px;
+	margin-left: -60px;
+	font-family: 'Microsoft yahei', sans-serif;
+}
+/*---start-form----*/
+
+.form{
+	width: 60%;
+	margin: 112px 20px 20px 223px;
+	position: relative;
+}
+.form form {
+	background: #FFF;
+}
+.notified form{
+	text-align:center;
+	border: 1px solid #323733;
+	background: #323733;
+	border-radius: 6px;
+}
+.form input[type="email"]{
+	width: 88%;
+	padding:23px;
+	color:#d9d9d9;
+	font-size:20px;
+	outline:none;
+	border: none;
+	background:#fff;
+	margin: 0px;
+	font-family: 'Microsoft yahei', sans-serif;
+	font-weight: 600;
+	-webkit-appearance: none;
+}
+.form input[type="email"]:focus
+{
+	color: #474747;
+	outline: none;
+	font-family: 'Microsoft yahei', sans-serif;
+}
+.form input[type="submit"]{
+	background:#72614A;
+	padding: 23px ;
+	border:none;
+	color:#ffffff;
+	outline:none;
+	cursor:pointer;
+	margin: 0px;
+	width:30%;
+	font-size:20px;
+	font-family: 'Microsoft yahei', sans-serif;
+	font-weight: 600;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+	transition: all 0.3s;
+	-webkit-appearance: none;
+	position: absolute;
+	right: 0;
+	border-radius: 0;
+}
+.form input[type="button"]:hover
+{
+	
+	background: #BB7419;
+}
+/*----end-form-----*/
+
+/*----start-music-----*/
+
+.music 
+{
+	width: 60%;
+	margin: 200px 50px 45px 146px;
+	position: relative;
+}
+
+.music ul
+{
+
+}
+
+.music li 
+{
+	margin-left: -160px;
+}
+
+.music .title
+{
+
+	background-image: url(../img/music-title.png);
+	font-size: 25px;
+	font-family: "Microsoft YaHei";
+	background-size: 100%;
+}
+
+.music .author 
+{
+	background-image: url(../img/music-author.png);
+	font-size: 25px;
+	font-family: "Microsoft YaHei";
+}
+
+/*----end-music-----*/
